@@ -16,21 +16,21 @@ public class Factorial {
      */
     public static void main(String[] args) {
         //Código formateado
-        int j;
-        int f;
-        j = 8;
-
-        int i;
-        if (j == 0) {
-            f = 1;
+        //Ahora cambiamos los nombres a las variables
+        int num1;
+        int num2;
+        num1 = 8;
+        int contador;
+        if (num1 == 0) {
+            num2 = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            num2 = 1;
+            for (contador = num1; contador >= 1; contador--) {
+                num2 = num2 * contador;
             }
         }
 
-        System.out.println(f);
+        System.out.println(num2);
     }
 
 }
